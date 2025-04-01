@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "Pseudo-goldstone modes and dynamical gap generation from order by thermal disorder"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
