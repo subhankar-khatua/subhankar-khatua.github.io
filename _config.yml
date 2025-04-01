@@ -28,7 +28,7 @@ author:
   bio              : "Short biography for the left-hand sidebar"
   location         : "Dresden, Germany"
   employer         : "IFW Dresden"
-  uri              : # URL
+  uri              : "https://www.ifw-dresden.de/"# URL
   email            : "s.khatua@ifw-dresden.de" 
 
   # Academic websites
