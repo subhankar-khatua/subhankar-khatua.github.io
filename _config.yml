@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Subhankar Khatua / Site Title"
+title                    : "Subhankar Khatua"
 title_separator          : "-"
 name                     : &name "Subhankar Khatua"
 description              : &description "personal description"
@@ -23,16 +23,16 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Subhankar Khatua"
+  pronouns         : # example: "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Dresden, Germany"
+  employer         : "IFW Dresden"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "s.khatua@ifw-dresden.de" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://arxiv.org/search/?query=Khatua%2C+Subhankar&searchtype=author&abstracts=show&order=-announced_date_first&size=100"# URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
