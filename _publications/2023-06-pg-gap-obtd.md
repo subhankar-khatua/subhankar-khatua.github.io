@@ -1,5 +1,5 @@
 ---
-title: "Pseudo-goldstone modes and dynamical gap generation from order by thermal disorder"
+title: "Pseudo-Goldstone modes and dynamical gap generation from order by thermal disorder"
 collection: publications
 category: manuscripts
 permalink: /publication/2023-06-pg-gap-obtd
