@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Subhankar Khatua"
-  pronouns         : # example: "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : "he/him"  
+  bio              : "Hallwachs-Röntgen postdoctoral researcher at the Institute for Theoretical Solid State Physics, IFW Dresden"
   location         : "Dresden, Germany"
   employer         : "IFW Dresden"
   uri              : "https://www.ifw-dresden.de/"# URL
