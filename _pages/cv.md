@@ -44,7 +44,9 @@ Skills
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    #{% include archive-single-cv.html %}
+    {% comment %}
+    {% include archive-single-cv.html %}
+    {% endcomment %}
     {% include test-publications.html %}
   {% endfor %}</ul>
   
