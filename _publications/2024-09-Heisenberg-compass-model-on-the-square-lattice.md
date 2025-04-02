@@ -5,7 +5,8 @@ category: manuscripts
 permalink: /publication/2024-09-Heisenberg-compass-model-on-the-square-lattice
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-09-23
-venue: 'Phys. Rev. B'
+authors: "S. Khatua, G. C. Howson,  M. J. P. Gingras, J. G. Rau"
+venue: 'Phys. Rev. B 110, 104426 (2024)'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 paperurl: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.104426'
