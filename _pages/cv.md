@@ -50,15 +50,16 @@ Publications
 
 Publications
 ======
-<ul>
+<ol>
   {% for post in site.publications reversed %}
     <li>
       <strong>{{ post.title }}</strong><br>
       {{ post.authors }} — 
-      <a href="{{ post.paperurl }}" target="_blank">{{ post.venue }}</a>
+      <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
     </li>
   {% endfor %}
-</ul>
+</ol>
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
