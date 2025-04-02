@@ -52,7 +52,14 @@ Publications
 ======
 <ul>
   {% for post in site.publications reversed %}
-    {% include test-publications.html %}
+    {% comment %}
+    {% include archive-single-cv.html %}
+    {% endcomment %}
+    <li>
+      <strong>{{ post.title }}</strong><br>
+      {{ post.authors }} — 
+      <a href="{{ post.paperurl }}" target="_blank">{{ post.venue }}</a>
+    </li>
   {% endfor %}
 </ul>
 
