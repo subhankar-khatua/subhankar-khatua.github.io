@@ -5,7 +5,8 @@ category: manuscripts
 permalink: /publication/2021-05-state-selection-in-frustrated-magnets
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2021-05-11
-venue: 'Phys. Rev. B'
+authors: S. Khatua, S. Srinivasan, R. Ganesh
+venue: 'Phys. Rev. B 103, 174412 (2021)'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 paperurl: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.174412'
