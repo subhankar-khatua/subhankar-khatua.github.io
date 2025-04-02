@@ -40,16 +40,22 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
+{% comment %}
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    {% comment %}
     {% include archive-single-cv.html %}
-    {% endcomment %}
-    {% include test-publications.html %}
   {% endfor %}</ul>
-  
+ {% endcomment %} 
+
+Publications
+======
+<ul>
+  {% for post in site.publications reversed %}
+    {% include test-publications.html %}
+  {% endfor %}
+</ul>
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
