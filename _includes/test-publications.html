@@ -1,9 +1,11 @@
 {% include base_path %}
 
-<ol>
-  <li>
-    <strong>{{ post.title }}</strong><br>
-    {{ post.authors }} — 
-    <a href="{{ post.paperurl }}" target="_blank">{{ post.venue }}</a>
-  </li>
+<ol class="publications">
+  {% for post in site.publications reversed %}
+    <li>
+      <strong>{{ post.title }}</strong><br>
+      {{ post.authors }} — 
+      <a href="{{ post.paperurl }}" target="_blank">{{ post.venue }}</a>
+    </li>
+  {% endfor %}
 </ol>
