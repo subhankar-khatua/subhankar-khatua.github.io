@@ -2,14 +2,12 @@
 
 <ol>
 {% for post in site.publications reversed %}
-  <li>
-    <strong>{{ post.title }}</strong><br>
-    {{ post.authors }} —
-    {% if post.venue and post.link %}
-      <a href="{{ post.link }}" target="_blank">{{ post.venue }}</a>
-    {% elsif post.venue %}
-      {{ post.venue }}
-    {% endif %}
-  </li>
+  {% if post.title and post.authors and post.venue %}
+    <li>
+      <strong>{{ post.title }}</strong><br>
+      {{ post.authors }} — 
+      <a href="{{ post.paperurl }}" target="_blank">{{ post.venue }}</a>
+    </li>
+  {% endif %}
 {% endfor %}
 </ol>
