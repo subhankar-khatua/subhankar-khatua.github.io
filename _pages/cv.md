@@ -50,8 +50,6 @@ Publications
 
 Selected publications
 ======
-Publications
-======
 <ol>
   {% for post in site.publications reversed %}
     <li>
