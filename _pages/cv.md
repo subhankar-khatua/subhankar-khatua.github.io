@@ -59,7 +59,7 @@ Publications
       {% assign authors = post.authors | split: ',' %}
       {% for author in authors %}
         {% if author contains "S. Khatua" %}
-          <span style="color: blue;">{{ author }}</span>
+          <span style="color: mediumslateblue;">{{ author }}</span>
         {% else %}
           {{ author }}
         {% endif %}
