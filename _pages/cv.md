@@ -52,9 +52,6 @@ Publications
 ======
 <ul>
   {% for post in site.publications reversed %}
-    {% comment %}
-    {% include archive-single-cv.html %}
-    {% endcomment %}
     <li>
       <strong>{{ post.title }}</strong><br>
       {{ post.authors }} — 
@@ -62,7 +59,6 @@ Publications
     </li>
   {% endfor %}
 </ul>
-
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
