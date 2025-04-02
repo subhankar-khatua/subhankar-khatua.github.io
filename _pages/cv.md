@@ -57,7 +57,7 @@ Selected publications
       {% assign authors = post.authors | split: ',' %}
       {% for author in authors %}
         {% if author contains "S. Khatua" %}
-          <span style="color: mediumslateblue;">{{ author }}</span>
+          <span style="color: steelblue;">{{ author }}</span>
         {% else %}
           {{ author }}
         {% endif %}
