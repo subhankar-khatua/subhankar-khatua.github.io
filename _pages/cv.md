@@ -48,7 +48,7 @@ Publications
   {% endfor %}</ul>
  {% endcomment %} 
 
-Publications
+Selected publications
 ======
 <ol>
   {% for post in site.publications reversed %}
