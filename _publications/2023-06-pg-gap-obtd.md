@@ -6,7 +6,7 @@ permalink: /publication/2023-06-pg-gap-obtd
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2023-06-26
 authors: "S. Khatua, M. J. P. Gingras, J. G. Rau"
-venue: 'Phys. Rev. Lett.'
+venue: 'Phys. Rev. Lett. 130, 266702 (2023)'
 paperurl: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.266702"
 #citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
