@@ -66,7 +66,13 @@ author_profile: true
 
       <!-- Right: Publication Details -->
       <div style="flex: 1;">
-        <strong>{{ post.title }}</strong><br>
+        <!-- Numbering and Title -->
+        <div style="display: flex; align-items: center;">
+          <div style="width: 30px; height: 30px; background-color: lightgray; color: black; display: flex; justify-content: center; align-items: center; border-radius: 50%; margin-right: 10px;">
+            {{ forloop.index }}
+          </div>
+          <strong>{{ post.title }}</strong>
+        </div>
         
         {% if post.authors %}
           {% assign authors = post.authors | split: ',' %}
@@ -97,5 +103,3 @@ author_profile: true
     </li>
   </ol>
 {% endfor %}
-
-
