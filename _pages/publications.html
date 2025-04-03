@@ -48,6 +48,7 @@ author_profile: true
 {% endif %}-->
 
 <!-- below is the new part added by me -->
+
 {% include base_path %}
 
 <!-- Direct rendering of all publications -->
@@ -66,11 +67,9 @@ author_profile: true
 
       <!-- Right: Publication Details -->
       <div style="flex: 1;">
-        <!-- Numbering and Title -->
-        <div style="display: flex; align-items: center;">
-          <div style="width: 30px; height: 30px; background-color: lightgray; color: black; display: flex; justify-content: center; align-items: center; border-radius: 50%; margin-right: 10px;">
-            {{ forloop.index }}
-          </div>
+        <!-- Numbering (Counting Down) and Title -->
+        <div style="display: inline;">
+          <span style="font-weight: normal; font-size: inherit; margin-right: 5px;">[{{ forloop.rindex }}]</span>
           <strong>{{ post.title }}</strong>
         </div>
         
@@ -87,7 +86,6 @@ author_profile: true
           <br>
         {% endif %}
         
-        &mdash;
         {% if post.paperurl %}
           <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
         {% else %}
