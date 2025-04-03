@@ -67,35 +67,40 @@ author_profile: true
 
       <!-- Right: Publication Details -->
       <div style="flex: 1;">
-        <!-- Numbering (Counting Down) and Title -->
-        <div style="display: inline;">
+        <!-- First line: Numbering and Title -->
+        <div>
           <span style="font-weight: normal; font-size: inherit; margin-right: 5px;">[{{ forloop.rindex }}]</span>
           <strong>{{ post.title }}</strong>
         </div>
-        
-        {% if post.authors %}
-          {% assign authors = post.authors | split: ',' %}
-          {% for author in authors %}
-            {% if author contains "S. Khatua" %}
-              <span style="color: steelblue;">{{ author | strip }}</span>
-            {% else %}
-              {{ author | strip }}
-            {% endif %}
-            {% unless forloop.last %}, {% endunless %}
-          {% endfor %}
-          <br>
-        {% endif %}
-        
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
-        {% else %}
-          <i>{{ post.venue }}</i>
-        {% endif %}
-        
-        {% if post.arxiv and post.arxivurl %}
-          &nbsp;|&nbsp;  
-          <a href="{{ post.arxivurl }}" target="_blank" style="text-decoration: none;">{{ post.arxiv }}</a>
-        {% endif %}
+
+        <!-- Second line: Authors -->
+        <div>
+          {% if post.authors %}
+            {% assign authors = post.authors | split: ',' %}
+            {% for author in authors %}
+              {% if author contains "S. Khatua" %}
+                <span style="color: steelblue;">{{ author | strip }}</span>
+              {% else %}
+                {{ author | strip }}
+              {% endif %}
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          {% endif %}
+        </div>
+
+        <!-- Third line: Venue and arXiv -->
+        <div>
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
+          {% else %}
+            <i>{{ post.venue }}</i>
+          {% endif %}
+          
+          {% if post.arxiv and post.arxivurl %}
+            &nbsp;|&nbsp;  
+            <a href="{{ post.arxivurl }}" target="_blank" style="text-decoration: none;">{{ post.arxiv }}</a>
+          {% endif %}
+        </div>
       </div>
       
     </li>
