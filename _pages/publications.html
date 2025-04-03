@@ -49,118 +49,52 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
+<!-- Direct rendering of all publications -->
+{% for post in site.publications reversed %}
+  <ol style="list-style-type: none; padding-left: 0;">
+    <li value="{{ forloop.rindex }}" style="display: flex; align-items: center; margin-bottom: 20px;">
+    
+      <!-- Left: Image -->
+      <div style="flex: 0 0 100px; margin-right: 15px;">
+        {% if post.image %}
+          <img src="{{ post.image }}" alt="Paper Image" style="width: 100px; height: auto; border-radius: 5px;">
+        {% else %}
+          <img src="/assets/default_paper.png" alt="Default Image" style="width: 100px; height: auto; border-radius: 5px;">
+        {% endif %}
+      </div>
 
-      <!-- Custom Layout for Publications (Image on Left, Details on Right) -->
-      <ol style="list-style-type: none; padding-left: 0;">
-        <li value="{{ forloop.rindex }}" style="display: flex; align-items: center; margin-bottom: 20px;">
+      <!-- Right: Publication Details -->
+      <div style="flex: 1;">
+        <strong>{{ post.title }}</strong><br>
         
-          <!-- Left: Image -->
-          <div style="flex: 0 0 100px; margin-right: 15px;">
-            {% if post.image %}
-              <a href="{{ post.image }}" target="_blank">
-                <img src="images/bio-photo.jpg" alt="Paper Image" style="width: 100px; height: auto; border-radius: 5px;">
-              </a>
+        {% if post.authors %}
+          {% assign authors = post.authors | split: ',' %}
+          {% for author in authors %}
+            {% if author contains "S. Khatua" %}
+              <span style="color: steelblue;">{{ author | strip }}</span>
             {% else %}
-              <img src="images/bio-photo.jpg" alt="Default Image" style="width: 100px; height: auto; border-radius: 5px;">
+              {{ author | strip }}
             {% endif %}
-          </div>
-
-          <!-- Right: Publication Details -->
-          <div style="flex: 1;">
-            <strong>{{ post.title }}</strong><br>
-            
-            {% if post.authors %}
-              {% assign authors = post.authors | split: ',' %}
-              {% for author in authors %}
-                {% if author contains "S. Khatua" %}
-                  <span style="color: steelblue;">{{ author | strip }}</span>
-                {% else %}
-                  {{ author | strip }}
-                {% endif %}
-                {% unless forloop.last %}, {% endunless %}
-              {% endfor %}
-              <br>
-            {% endif %}
-            
-            &mdash;
-            {% if post.paperurl %}
-              <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
-            {% else %}
-              <i>{{ post.venue }}</i>
-            {% endif %}
-            
-            {% if post.arxiv and post.arxivurl %}
-              &nbsp;|&nbsp;  
-              <a href="{{ post.arxivurl }}" target="_blank" style="text-decoration: none;">{{ post.arxiv }}</a>
-            {% endif %}
-          </div>
-          
-        </li>
-      </ol>
-
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    <ol style="list-style-type: none; padding-left: 0;">
-      <li value="{{ forloop.rindex }}" style="display: flex; align-items: center; margin-bottom: 20px;">
+            {% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          <br>
+        {% endif %}
+        
+        &mdash;
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
+        {% else %}
+          <i>{{ post.venue }}</i>
+        {% endif %}
+        
+        {% if post.arxiv and post.arxivurl %}
+          &nbsp;|&nbsp;  
+          <a href="{{ post.arxivurl }}" target="_blank" style="text-decoration: none;">{{ post.arxiv }}</a>
+        {% endif %}
+      </div>
       
-        <!-- Left: Image -->
-        <div style="flex: 0 0 100px; margin-right: 15px;">
-          {% if post.image %}
-            <a href="{{ post.image }}" target="_blank">
-              <img src="images/bio-photo.jpg" alt="Paper Image" style="width: 100px; height: auto; border-radius: 5px;">
-            </a>
-          {% else %}
-            <img src="images/bio-photo.jpg" alt="Default Image" style="width: 100px; height: auto; border-radius: 5px;">
-          {% endif %}
-        </div>
-
-        <!-- Right: Publication Details -->
-        <div style="flex: 1;">
-          <strong>{{ post.title }}</strong><br>
-          
-          {% if post.authors %}
-            {% assign authors = post.authors | split: ',' %}
-            {% for author in authors %}
-              {% if author contains "S. Khatua" %}
-                <span style="color: steelblue;">{{ author | strip }}</span>
-              {% else %}
-                {{ author | strip }}
-              {% endif %}
-              {% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-            <br>
-          {% endif %}
-          
-          &mdash;
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
-          {% else %}
-            <i>{{ post.venue }}</i>
-          {% endif %}
-          
-          {% if post.arxiv and post.arxivurl %}
-            &nbsp;|&nbsp;  
-            <a href="{{ post.arxivurl }}" target="_blank" style="text-decoration: none;">{{ post.arxiv }}</a>
-          {% endif %}
-        </div>
-        
-      </li>
-    </ol>
-  {% endfor %}
-{% endif %}
+    </li>
+  </ol>
+{% endfor %}
 
 
