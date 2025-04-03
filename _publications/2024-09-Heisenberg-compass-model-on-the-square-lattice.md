@@ -3,7 +3,7 @@ title: "Ground state properties of the Heisenberg-compass model on the square la
 collection: publications
 category: manuscripts
 permalink: /publication/2024-09-Heisenberg-compass-model-on-the-square-lattice
-image: '/images/khatuaSubhankar.jpg'
+image: '/images/HC-phase_diagram.pdf'
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-09-23
 authors: "S. Khatua, G. C. Howson,  M. J. P. Gingras, J. G. Rau"
