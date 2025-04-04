@@ -79,7 +79,7 @@ author_profile: true
             {% assign authors = post.authors | split: ',' %}
             {% for author in authors %}
               {% if author contains "S. Khatua" %}
-                <span style="color: steelblue;">{{ author | strip }}</span>
+                <span style="color: black;">{{ author | strip }}</span>
               {% else %}
                 {{ author | strip }}
               {% endif %}
