@@ -12,7 +12,7 @@ venue: 'Phys. Rev. B 103, 174412 (2021)'
 #paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 paperurl: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.174412'
 arxiv: 'arXiv:2011.11668'
-arxivurl:'https://arxiv.org/abs/2011.11668' 
+arxivurl: 'https://arxiv.org/abs/2011.11668' 
 #bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
