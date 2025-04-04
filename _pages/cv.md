@@ -11,27 +11,21 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, Institute of Mathematical Sciences, 2021
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D., The Institute of Mathematical Sciences, Chennai, 2016 - 2022
+* M.Sc., The Institute of Mathematical Sciences, Chennai, 2014 - 2016
+* B.Sc., University of Calcutta, 2010 - 2013
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+*  2024 - Present: Hallwachs-Röntgent Postdoctoral Researcher
+  * Institute for Theoretical Solid State Physics, IFW Dresden
+  * Supervisor: Prof. Jeroen van Den Brink and Prof. Fakher Assaad
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2022 - 2024: Joint Postdoctoral Reseacher
+  * University of Waterloo and University of Windsor, Canada
+  * Supervisor: Prof. Michel J. P. Gingras and Prof. Jeffrey G. Rau
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+
 Skills
 ======
 * Skill 1
