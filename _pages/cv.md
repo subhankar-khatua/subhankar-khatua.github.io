@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 * 2024 - Present: Hallwachs-Röntgent Postdoctoral Researcher
-  * Institute for Theoretical Solid State Physics, IFW Dresden
+  * Institute for Theoretical Solid State Physics, IFW Dresden, Germany
   * Supervisor: Prof. Jeroen van Den Brink and Prof. Fakher Assaad
 
 * 2022 - 2024: Joint Postdoctoral Reseacher
