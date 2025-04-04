@@ -3,7 +3,7 @@ title: "Effective theories for quantum spin clusters: Geometric phases and state
 collection: publications
 category: manuscripts
 permalink: /publication/2019-10-spin-clusters-obs
-image: 'images/3-tori.jpg'
+image: '/images/3-tori.jpg'
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2019-10-09
 authors: S. Khatua, D. Sen, R. Ganesh
