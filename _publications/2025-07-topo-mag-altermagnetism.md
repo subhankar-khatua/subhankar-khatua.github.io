@@ -3,7 +3,7 @@ title: "Magnon topology driven by altermagnetism"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-topo-mag-altermagnetism
-image: '/images/altermagnetic-checkerboard.jpg'
+image: '/images/altermagnetic-checkerboard.png'
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-09-23
 authors: "S. Khatua, V. P. Kravchuk,  K. V. Yershov, J. van den Brink"
