@@ -1,0 +1,19 @@
+---
+title: "Magnon topology driven by altermagnetism"
+collection: publications
+category: manuscripts
+permalink: /publication/2025-07-topo-mag-altermagnetism
+image: '/images/altermagnetic-checkerboard.jpg'
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+date: 2024-09-23
+authors: "S. Khatua, V. P. Kravchuk,  K. V. Yershov, J. van den Brink"
+#venue: 'arXiv:2507.17822'
+#slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+#paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+#paperurl: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.104426](https://arxiv.org/abs/2507.17822'
+arxiv: 'arXiv:2507.17822'
+arxivurl: 'https://arxiv.org/abs/2507.17822'
+#bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
+#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+---
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
