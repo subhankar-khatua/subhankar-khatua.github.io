@@ -2,6 +2,7 @@
 title: "Berry phase in the rigid rotor: Emergent physics of odd antiferromagnets"
 collection: publications
 category: manuscripts
+selected: true
 permalink: /publication/2022-02-Bphase-rigid-rotor
 image: '/images/rotor-bphase.jpg'
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
