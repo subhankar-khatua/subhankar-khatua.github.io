@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D., The Institute of Mathematical Sciences, Chennai, 2016 - 2022
+* Ph.D., The Institute of Mathematical Sciences, Chennai, 2016 - 2021
 * M.Sc., The Institute of Mathematical Sciences, Chennai, 2014 - 2016
 * B.Sc., University of Calcutta, 2010 - 2013
 
@@ -19,11 +19,11 @@ Work experience
 ======
 * 2024 - Present: Hallwachs-Röntgent Postdoctoral Researcher
   * Institute for Theoretical Solid State Physics, IFW Dresden, Germany
-  * Supervisor: Prof. Jeroen van Den Brink and Prof. Fakher Assaad
+  * Mentors: Prof. Jeroen van Den Brink (IFW Dresden) and Prof. Fakher Assaad (JMU Würzburg)
 
 * 2022 - 2024: Joint Postdoctoral Reseacher
   * University of Waterloo and University of Windsor, Canada
-  * Supervisor: Prof. Michel J. P. Gingras and Prof. Jeffrey G. Rau
+  * Supervisor: Prof. Michel J. P. Gingras (Waterloo) and Prof. Jeffrey G. Rau (Windsor)
 
 
 Skills
