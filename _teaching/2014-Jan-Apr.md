@@ -4,6 +4,7 @@ collection: teaching
 type: "Master's course"
 permalink: /teaching/2019-Jan-Apr
 venue: "The Institute of Mathematical Sciences"
+role: "Teaching assistant"
 date: 2019-01-01
 location: "Chennai, India"
 ---
