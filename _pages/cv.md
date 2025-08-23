@@ -46,20 +46,22 @@ Selected publications
 ======
 <ol>
   {% for post in site.publications reversed %}
-    <li>
-      <strong>{{ post.title }}</strong><br>
-      {% assign authors = post.authors | split: ',' %}
-      {% for author in authors %}
-        {% if author contains "S. Khatua" %}
-          <span style="color: steelblue;">{{ author }}</span>
-        {% else %}
-          {{ author }}
-        {% endif %}
+    {% if post.selected %}
+      <li>
+        <strong>{{ post.title }}</strong><br>
+        {% assign authors = post.authors | split: ',' %}
+        {% for author in authors %}
+          {% if author contains "S. Khatua" %}
+            <span style="color: steelblue;">{{ author }}</span>
+          {% else %}
+            {{ author }}
+          {% endif %}
         {% if forloop.last == false %}, {% endif %}
       {% endfor %}
       — 
       <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
     </li>
+  {% endif %}
   {% endfor %}
 </ol>
 
