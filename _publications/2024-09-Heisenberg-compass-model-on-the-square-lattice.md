@@ -2,6 +2,7 @@
 title: "Ground state properties of the Heisenberg-compass model on the square lattice"
 collection: publications
 category: manuscripts
+selected: true
 permalink: /publication/2024-09-Heisenberg-compass-model-on-the-square-lattice
 image: '/images/HC-phase-diagram.jpg'
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
