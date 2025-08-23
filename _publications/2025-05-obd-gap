@@ -5,7 +5,7 @@ collection: publications
 selected: true
 category: manuscripts
 permalink: /publication/2025-05-obd-gap
-#image: '/images/altermagnetic-checkerboard.png'
+image: '/images/obd-gapvsT.png'
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-09-23
 authors: "A. Hickey, J. G. Rau, S. Khatua, M. J. P. Gingras"
