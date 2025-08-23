@@ -2,6 +2,7 @@
 title: "Pseudo-Goldstone modes and dynamical gap generation from order by thermal disorder"
 collection: publications
 category: manuscripts
+selected: true
 permalink: /publication/2023-06-pg-gap-obtd
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2023-06-26
