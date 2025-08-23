@@ -2,6 +2,7 @@
 title: "Effective theories for quantum spin clusters: Geometric phases and state selection by singularity"
 collection: publications
 category: manuscripts
+selected: true
 permalink: /publication/2019-10-spin-clusters-obs
 image: '/images/3-tori.jpg'
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
