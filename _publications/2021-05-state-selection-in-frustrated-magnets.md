@@ -2,6 +2,7 @@
 title: "State selection in frustrated magnets"
 collection: publications
 category: manuscripts
+selected: true
 permalink: /publication/2021-05-state-selection-in-frustrated-magnets
 image: '/images/obd-obs.jpg'
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
