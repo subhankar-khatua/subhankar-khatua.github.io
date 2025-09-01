@@ -8,7 +8,7 @@ image: '/images/quartic-mode.png'
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-08-28
 authors: "A. Fancelli, M. G. Gonzalez, S. Khatua, B. Lake, M. J. P. Gingras, J. G. Rau, J. Reuther"
-#venue: 'Phys. Rev. B 110, 104426 (2024)'
+venue: 'arXiv:2508.21211'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 #paperurl: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.104426'
