@@ -23,7 +23,7 @@ Work experience
 
 * 2022 - 2024: Joint Postdoctoral Reseacher
   * University of Waterloo and University of Windsor, Canada
-  * Supervisor: Prof. Michel J. P. Gingras (Waterloo) and Prof. Jeffrey G. Rau (Windsor)
+  * Mentors: Prof. Michel J. P. Gingras (Waterloo) and Prof. Jeffrey G. Rau (Windsor)
 
 
 Skills
