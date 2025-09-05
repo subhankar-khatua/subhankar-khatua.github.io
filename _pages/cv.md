@@ -25,16 +25,16 @@ Work experience
   * University of Waterloo and University of Windsor, Canada
   * Mentors: Prof. Michel J. P. Gingras (Waterloo) and Prof. Jeffrey G. Rau (Windsor)
 
-
-{%Skills
+{% comment %}
+Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3 %}
-{% comment %}
+* Skill 3 
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
