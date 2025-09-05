@@ -26,14 +26,14 @@ Work experience
   * Mentors: Prof. Michel J. P. Gingras (Waterloo) and Prof. Jeffrey G. Rau (Windsor)
 
 
-Skills
+{%Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 %}
 {% comment %}
 Publications
 ======
