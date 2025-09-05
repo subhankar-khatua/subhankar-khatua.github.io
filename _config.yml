@@ -220,10 +220,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false #change this to true after you update your details
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false #change this to true after you update your details
     permalink: /:collection/:path/
 
 
