@@ -1,0 +1,20 @@
+---
+title: "Finite-Size Spectral Signatures of Order by Quantum Disorder: A Perspective from Anderson's Tower of States"
+collection: publications
+category: manuscripts
+selected: true
+permalink: /publication/2025-09-ObQD-Anderson-tower
+image: '/images/tower.jpg'
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+date: 2025-09-12
+authors: "S. Khatua, G. C. Howson, M. J. P. Gingras, J. G. Rau"
+venue: 'arXiv:2509.10610'
+#slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+#paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+#paperurl: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.104426'
+arxiv: 'arXiv:2509.10610'
+arxivurl: 'https://arxiv.org/abs/2509.10610'
+#bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
+#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+---
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
