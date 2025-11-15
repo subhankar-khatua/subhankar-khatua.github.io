@@ -1,5 +1,5 @@
 ---
-title: "Quantum Theory I"
+title: "Quantum Theory - I"
 collection: teaching
 type: "Bachelor's Course"
 permalink: /teaching/2025-summer-teaching
