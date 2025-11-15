@@ -2,9 +2,10 @@
 title: "Quantum Theory I"
 collection: teaching
 type: "Bachelor's Course"
-permalink: /teaching/2015-spring-teaching-1
-venue: "Dresden University of Technology, Department of Physics"
-date: 2025-01-01
+permalink: /teaching/2025-summer-teaching
+venue: "Technische Universität Dresden, Department of Physics"
+role: Tutor
+date: 2025-04-07
 location: "Dresden, Germany"
 ---
 
