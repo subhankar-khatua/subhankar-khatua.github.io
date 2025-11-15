@@ -1,9 +1,9 @@
 ---
-title: "Condensed Matter - I"
+title: "Condensed Matter Physics - I"
 collection: teaching
 type: "Master's course"
 permalink: /teaching/2019-Jan-Apr
-venue: "The Institute of Mathematical Sciences"
+venue: "The Institute of Mathematical Sciences, Department of Physics"
 role: "Teaching assistant"
 date: 2019-01-01
 location: "Chennai, India"
