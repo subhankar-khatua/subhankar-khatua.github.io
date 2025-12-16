@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/2025-07-topo-mag-altermagnetism
 image: '/images/altermagnetic-checkerboard.png'
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-07
+date: 2025-07-23
 authors: "S. Khatua, V. P. Kravchuk,  K. V. Yershov, J. van den Brink"
 venue: 'Phys. Rev. B 112, 214422 (2025)'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
