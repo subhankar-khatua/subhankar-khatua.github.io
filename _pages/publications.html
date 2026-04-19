@@ -95,6 +95,12 @@ author_profile: true
           {% else %}
             <i>{{ post.venue }}</i>
           {% endif %}
+          {% if post.highlight %}
+            <span style="margin-left: 6px; font-weight: 600;">
+              [{{ post.highlight }}]
+            </span>
+          {% endif %}
+
           
           {% if post.arxiv and post.arxivurl %}
             &nbsp;|&nbsp;  
