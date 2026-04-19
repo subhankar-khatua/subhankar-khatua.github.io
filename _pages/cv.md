@@ -60,6 +60,11 @@ Selected publications
       {% endfor %}
       — 
       <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none;">{{ post.venue }}</a>
+      {% if post.highlight %}
+        <span style="margin-left: 6px; color: #1f4e79; font-weight: 600;">
+          [{{ post.highlight }}]
+        </span>
+      {% endif %}
     </li>
   {% endif %}
   {% endfor %}
