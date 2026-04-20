@@ -12,13 +12,3 @@ location: "Chennai, India"
 During my Ph.D., I served as a teaching assistant for this course offered from January to May 2019. The course covered
 crystal structures, bonding in solids, phonons, electrons in solids, superfluidity, superconductivity, and magnetism.
 
-{% comment %}
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
-{% endcomment %}
