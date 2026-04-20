@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Hallwachs-Röntgen postdoctoral researcher at the Institute for Theoretical Solid State Physics, IFW Dresden, Germany. I work in theoretical condensed matter physics focusing primarily on classical as well as quantum spin systems. I am particularly interested in systems where the spin-spin interactions cannot all be simulatneously satisfied, i.e., they compete with each other -- known as "frustrated" systems. The following list briefly summarize my research work. 
+I am currently a Hallwachs-Röntgen postdoctoral researcher at the Institute for Theoretical Solid State Physics, IFW Dresden, Germany. I work in theoretical condensed matter physics focusing primarily on classical and quantum spin systems. I am particularly interested in systems where spin-spin interactions cannot all be simultneously satisfied, i.e., they compete with each other -- known as "frustrated" systems.  
+
+I completed my doctoral studies at The Institute of Mathematical Sciences, Chennai, in 2021 under the supervision of [Prof. R. Ganesh](https://sites.google.com/view/r-ganesh). I then held a joint postdoctoral position at the University of Waterloo and the University of Windsor, Canada, from 2022 to 2024, working with [Prof. Michel J. P. Gingras](https://uwaterloo.ca/physics-astronomy/profile/gingras) (Waterloo) and [Prof. Jeffrey G. Rau](https://jeffrau.ca/) (Windsor).   
+
+The following list briefly summarizes my research work and interests. 
 
 <!-- I have completed my doctoral studies from The Instutute of Mathematical Sciences, Chennai in 2021 under the supervision of Prof. R. Ganesh. My Ph.D. thesis proposed a new ordering mechanism in a certain class of frustrated magnets  
 
