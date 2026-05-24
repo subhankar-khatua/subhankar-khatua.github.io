@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Hallwachs-Röntgen postdoctoral researcher at the Institute for Theoretical Solid State Physics, IFW Dresden, Germany. I work in theoretical condensed matter physics focusing primarily on classical and quantum spin systems. I am particularly interested in systems where spin-spin interactions cannot all be simultaneously satisfied, i.e., they compete with each other -- known as "frustrated" systems.  
+I am currently a Hallwachs-Röntgen postdoctoral researcher at the Institute for Theoretical Solid State Physics, IFW Dresden, Germany. I work in theoretical condensed matter physics focusing primarily on classical and quantum spin systems. I am particularly interested in systems where spin-spin interactions cannot all be simultaneously satisfied, i.e., they compete with each other -- known as "frustrated" systems. My current postdoc supervisors are [Prof. Jeroen van den Brink](https://www.ifw-dresden.de/ifw-institutes/itf/home/prof-dr-jeroen-van-den-brink) and [Prof. Fakher F. Assaad](https://www.physik.uni-wuerzburg.de/tp1/team/professoren/prof-dr-fakher-assaad/). 
 
 I completed my doctoral studies at The Institute of Mathematical Sciences, Chennai, in 2021 under the supervision of [Prof. R. Ganesh](https://sites.google.com/view/r-ganesh). I then held a joint postdoctoral position at the University of Waterloo and the University of Windsor, Canada, from 2022 to 2024, working with [Prof. Michel J. P. Gingras](https://uwaterloo.ca/physics-astronomy/profile/gingras) (Waterloo) and [Prof. Jeffrey G. Rau](https://jeffrau.ca/) (Windsor).   
 
