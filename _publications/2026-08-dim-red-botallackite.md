@@ -1,7 +1,7 @@
 ---
 title: "Magnetic-field-driven dimensional reduction in a quantum antiferromagnet"
 collection: publications
-selected: true
+selected: false
 category: manuscripts
 permalink: /publication/2026-08-dim-red-botallackite
 image: '/images/botallackite.png'
